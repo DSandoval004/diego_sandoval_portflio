@@ -1,7 +1,38 @@
 @charset "utf-8";
-/* HTML and Body */
-/* Basic Styles */
+
 /* Header and Top Nav Bar */
+header {
+    max-height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+body header img {
+    width: 100%;
+    max-height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+nav#topNavBar {
+    width: 100%;
+}
+
+nav#topNavBar ul li {
+    float: left;
+    width: 16.666%;
+    padding: 5px 0px;
+    margin: 0;
+    text-align: center;
+    background: radial-gradient(rgb(255, 254, 238), rgb(252, 226, 51), rgb(250, 143, 37));
+}
+
+nav#topNavBar ul li:hover,
+nav#topNavBar ul li:active {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
 /* Bio */
 /* Education */
 /* Skillz */
