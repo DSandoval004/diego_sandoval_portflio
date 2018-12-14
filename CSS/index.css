@@ -1,34 +1,39 @@
 @charset "utf-8";
 
 /* Header and Top Nav Bar */
-body img {
-    width: 100%;
+header {
+    max-height: 100px;
+    border: 1px solid black;
+    width: 99%;
+    margin: 5px auto;
+    box-shadow: 0 0 5px yellow;
+    position: sticky;
+    top: 5px;
 }
 
-.top {
-    position: sticky;
-    top: 0;
+img {
+    height: 60px;
+    margin: 1px;
+    width: 50%;
 }
 
 nav#topNavBar {
-    width: 100%;
-    margin-top: -3px;
+    height: 60px;
+    box-shadow: none;
+    border: none;
+    width: 49.5%;
 }
 
-nav#topNavBar ul li {
-    float: left;
-    width: 16.666%;
-    padding: 5px 0px;
-    margin: 0;
-    text-align: center;
-    background: radial-gradient(rgb(255, 254, 238), rgb(252, 226, 51), rgb(250, 143, 37));
-}
+/* Section */
+section {
+    background-color: aliceblue;
+    box-shadow: 1px 5px 5px;
+    border: 1px solid snow;
 
-nav#topNavBar ul li:hover,
-nav#topNavBar ul li:active {
-    filter: invert(1);
-    -webkit-filter: invert(1);
-    box-shadow: 0px 0px 10px;
+    width: 96%;
+    height: fit-content;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 /* Bio */

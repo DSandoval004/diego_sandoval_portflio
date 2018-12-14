@@ -1,65 +1,98 @@
 <!DOCTYPE html>
-<html class="no-js">
 
 <head>
+    <!-- TODO: Get a google font and apply it. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Diego Sandoval</title>
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/grids.css">
-    <link rel="stylesheet" href="CSS/basic.css">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/basic.css" media="screen">
+    <link rel="stylesheet" href="CSS/index.css" media="screen">
+    <link rel="stylesheet" href="CSS/print.css" media="print">
+
 </head>
 
 <body>
-    <!-- Header and Top Nav Bar -->
-    <img id="banner" src="Images/HIMG-ORW-Diego-E-Sandoval.png" alt="Header Image: The name Diego E. Sandoval on a desert sunset background">
-    <div class="top">
-        <nav id="topNavBar">
 
+    <!-- Header and Top Nav Bar -->
+    <header class="flexBoxColumn">
+        <img id="banner" src="Images/HIMG-ORW-Diego-E-Sandoval.png" alt="Header Image: The name Diego E. Sandoval on a desert sunset background"
+            class="flexItem11A">
+        <nav id="topNavBar" class="top">
+            <button class="topNavButton"><a href="#">Home</a></button>
+            <button class="topNavButton"><a href="#about">About</a></button>
+            <button class="topNavButton"><a href="#">Education</a></button>
+            <button class="topNavButton"><a href="#">Skills</a></button>
+            <button class="topNavButton"><a href="#">Resume</a></button>
+            <button class="topNavButton"><a href="#">Contact</a></button>
         </nav>
-    </div>
-    <!-- Bio -->
-    <div class="row">
-        <section id="Bio">
-            <h1>Bio</h1>
-            <!-- !!!!!!!!!! CREATE/GET CONTENT !!!!!!!!!!! -->
-            <p></p>
-        </section>
-    </div>
+    </header>
+    <!-- About -->
+    <section id="about" class="flexBoxColumn">
+        <h1>About Me</h1>
+        <!-- TODO: Create/Get Content get a good image of just me and put it on the left, the write a bit about me and put that on the right. -->
+        <p></p>
+    </section>
     <!-- Education -->
-    <div class="row">
-        <section id="Ed">
-            <h1>Education</h1>
-            <!-- !!!!!!!!!! CREATE/GET CONTENT !!!!!!!!!!! -->
-            <p></p>
-        </section>
-    </div>
+    <section id="Ed" class="flexBoxColumn">
+        <h1 class="row">Education</h1>
+        <h3>Mountain Ridge High School</h3>
+        <div class="flexBoxRow">
+            <p class="flexItem11A">Glendale, AZ</p>
+            <p class="flexItem11A">Expected Grad Date: May 2020</p>
+        </div>
+        <h3>West-MEC Coding Program </h3>
+        <div class="flexBoxRow">
+            <p class="flexItem11A">Glendale, AZ</p>
+            <p class="flexItem11A">Expected Grad Date: May 2020</p>
+        </div>
+        <h2>Relevant Courses</h2>
+        <p class="flexItem11A">Web Development, Advance Web Development, AP Physics, Dual Pre Calc, Dual English,
+            Band, <br /> Bio Honors, Chemistry Honors, Geometry 1-2 Honors, Algebra 3-4 Honors, ELA 1-2 Honors, ELA
+            3-4
+            Honors, and World History Honors.</p>
+        <h2>Extracurricular Activities</h2>
+        <h3>MRHS Band</h3>
+        <p class="flexItem11A">Member since August 2016, Attended ABODA competitions for Jazz, Marching Band and
+            Concert band, Attended
+            AZMBA competitions for marching band, Attended AZPAS competitions for drumline.
+        </p>
+    </section>
     <!-- Skillz -->
-    <div class="row">
-        <section id="skill">
-            <h1>Skills</h1>
-            <!-- !!!!!!!!!! CREATE/GET CONTENT !!!!!!!!!!! -->
-            <p></p>
-        </section>
-    </div>
+    <!-- TODO: Put in skills that I have, Definitly coding but maybe band too? -->
+    <section id="skill" class="flexBoxColumn">
+        <h1>Skills</h1>
+        <!-- TODO: Create/Get Content -->
+        <p></p>
+    </section>
     <!-- Resume -->
-    <div class="row">
-        <section id="resume">
-            <h1>Resume</h1>
-            <!-- !!!!!!!!!! CREATE/GET CONTENT !!!!!!!!!!! -->
-            <p></p>
-        </section>
-    </div>
+    <!-- TODO: Put in information from resume. -->
+    <section id="resume" class="flexBoxColumn">
+        <h1>Resume</h1>
+        <!-- TODO: Create/Get Content -->
+        <p></p>
+    </section>
     <!-- Contact -->
-    <div class="row">
-        <section id="contact">
-            <h1>Contact</h1>
-            <!-- !!!!!!!!!! CREATE/GET CONTENT !!!!!!!!!!! -->
-            <p></p>
-        </section>
-    </div>
+    <section id="contact" class="flexBoxColumn">
+        <h1 class="flexItem11A">Contact</h1>
+        <!-- TODO: Create/Get Content -->
+        <div class="flexBoxRow">
+            <div class="flexBoxColumn">
+                <h2 class="flexItem11A">Email</h2>
+                <a href="mailto:tekkitcreeper@gmail.com" class="lookLikeLink flexItem11A">tekkitcreeper@gmail.com</a>
+            </div>
+            <div class="flexBoxColumn">
+                <h2 class="flexItem11A">Call/Text</h2>
+                <a href="tel:+16237456504" class="lookLikeLink">(623) 745-6504</a>
+            </div>
+            <div class="flexBoxColumn">
+                <h2 class="flexItem11A">Social</h2>
+                <!-- TODO: Put link to social media with little images and tag. -->
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
-    <footer></footer>
+    <!-- TODO: Put in a footer of some sort decide that later. maybe an Image? -->
+    <footer class="flexBoxColumn"></footer>
 </body>
 
 </html>
