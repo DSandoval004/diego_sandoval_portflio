@@ -28,6 +28,7 @@ nav#topNavBar ul li:hover,
 nav#topNavBar ul li:active {
     filter: invert(1);
     -webkit-filter: invert(1);
+    box-shadow: 0px 0px 10px;
 }
 
 /* Bio */

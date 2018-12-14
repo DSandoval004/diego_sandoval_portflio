@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "reset.css";
 @import "grids.css";
+
 /* HTML and Body */
 /* A basic CSS sheets, that applie certian styles that I want, this is so I don,t have to retype everything. */
 html {
@@ -24,8 +25,8 @@ body {
     height: fit-content;
     min-height: 100%;
     width: 80%;
-
-
+    height: 100%;
+    background-color: white;
     margin: 0 auto;
     box-shadow: 0px 0px 25px;
 
