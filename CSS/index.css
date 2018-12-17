@@ -1,4 +1,32 @@
 @charset "utf-8";
+/* Import fonts and Fonts styles */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bangers|Bevan|Luckiest+Guy|Roboto');
+
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav#topNavBar a button {
+    font-family: 'Audiowide', cursive;
+}
+
+div.skills {
+    font-family: 'Audiowide', cursive;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h3 {
+    font-family: 'Bevan', cursive;
+}
+
 
 /* Header and Top Nav Bar */
 header {
@@ -44,5 +72,46 @@ section#Ed h2 {
 /* Bio */
 /* Education */
 /* Skillz */
+.skillcon {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+
+#git {
+    width: 95%;
+    background-color: rgb(26, 159, 151);
+}
+
+#html {
+    width: 90%;
+    background-color: rgb(220, 118, 50);
+}
+
+#css {
+    width: 85%;
+    background-color: rgb(81, 154, 186);
+}
+
+#js {
+    width: 25%;
+    background-color: rgb(203, 203, 65);
+}
+
+#ps {
+    width: 20%;
+    background-color: rgb(34, 202, 253);
+}
+
+#pp {
+    width: 10%;
+    background-color: rgb(167, 119, 178);
+}
+
 /* Footer */
 /*  */
