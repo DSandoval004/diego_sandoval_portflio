@@ -36,6 +36,11 @@ section {
     padding: 10px;
 }
 
+section#Ed h2 {
+    border-top: 2px solid black;
+    padding: 5px;
+}
+
 /* Bio */
 /* Education */
 /* Skillz */
