@@ -1,7 +1,70 @@
 @charset "utf-8";
 
-@media (max-width: 480px) {}
+/*  
+    =============================== 
+    Tablet and Mobile Styles: 768px 
+    ===============================
+*/
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
 
-@media (min-width: 481px) {}
+    section {
+        width: 90%;
+    }
 
-@media (min-width: 781px) {}
+    img#imgMyFace {
+        width: 99%;
+        clear: both;
+    }
+
+    div#amWords {
+        clear: both;
+    }
+
+    div#contactCon {
+        flex-flow: column;
+        -webkit-flex-flow: column wrap;
+    }
+
+    div.contactCon {
+        margin-left: 1em;
+    }
+
+    .contactCont {
+        margin-left: 5px;
+    }
+}
+
+/*     
+    =================================== 
+    Top Nav Bar Styles: 1174px and less 
+    ===================================
+*/
+@media (max-width: 1174px) {
+    header {
+        -webkit-flex-flow: row wrap;
+        flex-flow: row;
+        max-height: fit-content;
+    }
+
+    header img {
+        width: 99%;
+    }
+
+    nav#topNavBar {
+        flex-flow: column;
+        -webkit-flex-flow: column wrap;
+
+        height: fit-content;
+        width: 99%
+    }
+}
+
+/*  
+    ================================== 
+    Desktop Styles: 1175px and greater 
+    ==================================
+*/
+@media (min-width: 1175px) {}

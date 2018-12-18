@@ -15,6 +15,7 @@
     <title>Diego Sandoval</title>
     <link rel="stylesheet" href="CSS/basic.css" media="all">
     <link rel="stylesheet" href="CSS/index.css" media="screen">
+    <link rel="stylesheet" href="CSS/responsive.css" media="screen">
     <link rel="stylesheet" href="CSS/print.css" media="print">
 
 </head>
@@ -36,10 +37,15 @@
     </header>
     <!-- About -->
     <section id="about" class="flexBoxColumn">
-        <h1>About Me</h1>
-        <div class="row">
-            <img src="Images/DS-AboutMe-MyFace.png" alt="A picture of my face straight on" class="col-1-3">
-            <div class="flexBoxColumn" class="col-2-3">
+        <div class="sectionHeader">
+            <button id="sectionShow" class="sButton" onclick="aboutShow()">+</button>
+            <button id="sectionHide" class="hide sButton" onclick="aboutHide()">-</button>
+            <h1>About Me</h1>
+        </div>
+        <div id="contAbout" class="row hide">
+            <img src="Images/DS-AboutMe-MyFace.png" alt="A picture of my face straight on" class="col-1-3 flexItem11A"
+                id="imgMyFace">
+            <div id="amWords" class="flexBoxColumn" class="col-2-3">
                 <p>Hello! I am coder. I mostly do web based coding, like Html, CSS and JavaScript.
                     I am
                     always willing to learn new coding languages. I have created many websites and webpages. On these
@@ -151,19 +157,19 @@
     <!-- Contact -->
     <section id="contact" class="flexBoxColumn">
         <h1 class="flexItem11A">Contact</h1>
-        <div class="flexBoxRow">
-            <div class="flexBoxColumn">
+        <div id="contactCon" class="flexBoxRow">
+            <div class="flexBoxColumn contactCon">
                 <h2 class="flexItem11A">Email</h2>
-                <a href="mailto:mrdiegosandoval@gmail.com" class="lookLikeLink flexItem11A">mrdiegosandoval@gmail.com</a>
+                <a href="mailto:mrdiegosandoval@gmail.com" class="lookLikeLink flexItem11A contactCont">mrdiegosandoval@gmail.com</a>
             </div>
-            <div class="flexBoxColumn">
+            <div class="flexBoxColumn contactCon">
                 <h2 class="flexItem11A">Call/Text</h2>
-                <a href="tel:+16237456504" class="lookLikeLink">(623) 745-6504</a>
+                <a href="tel:+16237456504" class="lookLikeLink contactCont flexItem11A">(623) 745-6504</a>
             </div>
-            <div class="flexBoxColumn">
+            <div class="flexBoxColumn contactCon">
                 <h2 class="flexItem11A">Social</h2>
                 <!-- TODO: Put link to social media with little images and tag. -->
-                <div class="flexBoxRow">
+                <div class="flexBoxRow  contactCont">
                     <a href="#"><img src="Images/FaceBook.png" alt="Facebook Icon" class="icons"></a>
                     <a href="#"><img src="Images/Twitter.png" alt="Twitter Icon" class="icons"></a>
                     <a href="#"><img src="Images/Instagram.png" alt="Instagram Icon" class="icons"></a>
@@ -173,7 +179,8 @@
     </section>
     <!-- Footer -->
     <!-- TODO: Put in a footer of some sort decide that later. maybe an Image? -->
-    <footer class="flexBoxColumn"></footer>
+    <footer class="flexBoxColumn"><a href="#">Back to Top</a></footer>
+    <script src="JavaScript/index.js"></script>
 </body>
 
 </html>
