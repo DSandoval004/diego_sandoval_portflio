@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* Import fonts and Fonts styles */
+@import url('responsive.css');
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Bangers|Bevan|Luckiest+Guy|Roboto');
 
 p,
@@ -17,14 +18,22 @@ div.skills {
 
 h1 {
     font-family: 'Bangers', cursive;
+    text-align: center;
+    letter-spacing: .2em;
+    font-size: 3em;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightslategray;
 }
 
 h2 {
     font-family: 'Luckiest Guy', cursive;
+    letter-spacing: .1em;
 }
 
 h3 {
     font-family: 'Bevan', cursive;
+    letter-spacing: .05em;
 }
 
 
@@ -39,7 +48,7 @@ header {
     top: 5px;
 }
 
-img {
+header img {
     height: 60px;
     margin: 1px;
     width: 50%;
@@ -67,6 +76,15 @@ section {
 section#Ed h2 {
     border-top: 2px solid black;
     padding: 5px;
+}
+
+/* About Me */
+section#about div p {
+    text-indent: 1em;
+    font-size: 1.2em;
+    padding: 2.5px;
+    margin: 2.5px;
+    line-height: 1.2em;
 }
 
 /* Bio */
@@ -111,6 +129,13 @@ section#Ed h2 {
 #pp {
     width: 10%;
     background-color: rgb(167, 119, 178);
+}
+
+/* Contact */
+.icons {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
 }
 
 /* Footer */
