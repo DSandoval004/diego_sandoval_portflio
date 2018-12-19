@@ -38,8 +38,8 @@
     <!-- About -->
     <section id="about" class="flexBoxColumn">
         <div class="sectionHeader">
-            <button id="sectionShow" class="sButton" onclick="aboutShow()">+</button>
-            <button id="sectionHide" class="hide sButton" onclick="aboutHide()">-</button>
+            <button id="sectionShowAbout" class="sButton" onclick="AboutShow()">+</button>
+            <button id="sectionHideAbout" class="hide sButton" onclick="AboutHide()">-</button>
             <h1>About Me</h1>
         </div>
         <div id="contAbout" class="row hide">
@@ -84,95 +84,119 @@
     </section>
     <!-- Education -->
     <section id="Ed" class="flexBoxColumn">
-        <h1 class="row">Education</h1>
-        <h3>Mountain Ridge High School</h3>
-        <div class="flexBoxRow">
-            <p class="flexItem11A">Glendale, AZ</p>
-            <p class="flexItem11A">Expected Grad Date: May 2020</p>
+        <div class="sectionHeader">
+            <button id="sectionShowED" class="sButton" onclick="EDShow()">+</button>
+            <button id="sectionHideED" class="hide sButton" onclick="EDHide()">-</button>
+            <h1>Education</h1>
         </div>
-        <h3>West-MEC Coding Program </h3>
-        <div class="flexBoxRow">
-            <p class="flexItem11A">Glendale, AZ</p>
-            <p class="flexItem11A">Expected Grad Date: May 2020</p>
+        <div id="contED" class="row hide">
+            <h3>Mountain Ridge High School</h3>
+            <div class="flexBoxRow">
+                <p class="flexItem11A">Glendale, AZ</p>
+                <p class="flexItem11A">Expected Grad Date: May 2020</p>
+            </div>
+            <h3>West-MEC Coding Program </h3>
+            <div class="flexBoxRow">
+                <p class="flexItem11A">Glendale, AZ</p>
+                <p class="flexItem11A">Expected Grad Date: May 2020</p>
+            </div>
+            <h2>Relevant Courses</h2>
+            <p class="flexItem11A">Web Development, Advance Web Development, AP Physics, Dual Pre Calc, Dual English,
+                Band, <br /> Bio Honors, Chemistry Honors, Geometry 1-2 Honors, Algebra 3-4 Honors, ELA 1-2 Honors, ELA
+                3-4
+                Honors, and World History Honors.</p>
+            <h2>Extracurricular Activities</h2>
+            <h3>MRHS Band</h3>
+            <p class="flexItem11A">Member since August 2016, Attended ABODA competitions for Jazz, Marching Band and
+                Concert band, Attended
+                AZMBA competitions for marching band, Attended AZPAS competitions for drumline.
+            </p>
         </div>
-        <h2>Relevant Courses</h2>
-        <p class="flexItem11A">Web Development, Advance Web Development, AP Physics, Dual Pre Calc, Dual English,
-            Band, <br /> Bio Honors, Chemistry Honors, Geometry 1-2 Honors, Algebra 3-4 Honors, ELA 1-2 Honors, ELA
-            3-4
-            Honors, and World History Honors.</p>
-        <h2>Extracurricular Activities</h2>
-        <h3>MRHS Band</h3>
-        <p class="flexItem11A">Member since August 2016, Attended ABODA competitions for Jazz, Marching Band and
-            Concert band, Attended
-            AZMBA competitions for marching band, Attended AZPAS competitions for drumline.
-        </p>
     </section>
     <!-- Skillz -->
     <section id="skill" class="flexBoxColumn">
-        <h1>Skills</h1>
-        <h2>Git - GitKraken and Git Hub</h2>
-        <div class="skillcon">
-            <div class="skills" id="git">
-                95%
-            </div>
+        <div class="sectionHeader">
+            <button id="sectionShowSkills" class="sButton" onclick="SkillsShow()">+</button>
+            <button id="sectionHideSkills" class="hide sButton" onclick="SkillsHide()">-</button>
+            <h1>Skills</h1>
         </div>
-        <h2>HTML 5</h2>
-        <div class="skillcon">
-            <div class="skills" id="html">
-                90%
+        <div id="contSkills" class="row hide">
+            <h2>Git - GitKraken and Git Hub</h2>
+            <div class="skillcon">
+                <div class="skills" id="git">
+                    95%
+                </div>
             </div>
-        </div>
-        <h2>CSS 3</h2>
-        <div class="skillcon">
-            <div class="skills" id="css">
-                85%
+            <h2>HTML 5</h2>
+            <div class="skillcon">
+                <div class="skills" id="html">
+                    90%
+                </div>
             </div>
-        </div>
-        <h2>JavaScript</h2>
-        <div class="skillcon">
-            <div class="skills" id="js">
-                25%
+            <h2>CSS 3</h2>
+            <div class="skillcon">
+                <div class="skills" id="css">
+                    85%
+                </div>
             </div>
-        </div>
-        <h2>Adobe PhotoShop</h2>
-        <div class="skillcon">
-            <div class="skills" id="ps">
-                20%
+            <h2>JavaScript</h2>
+            <div class="skillcon">
+                <div class="skills" id="js">
+                    25%
+                </div>
             </div>
-        </div>
-        <h2>Adobe Premiere Pro</h2>
-        <div class="skillcon">
-            <div class="skills" id="pp">
-                10%
+            <h2>Adobe PhotoShop</h2>
+            <div class="skillcon">
+                <div class="skills" id="ps">
+                    20%
+                </div>
+            </div>
+            <h2>Adobe Premiere Pro</h2>
+            <div class="skillcon">
+                <div class="skills" id="pp">
+                    10%
+                </div>
             </div>
         </div>
     </section>
     <!-- Resume -->
     <!-- TODO: Put in information from resume. -->
     <section id="resume" class="flexBoxColumn">
-        <h1>Resume</h1>
-        <!-- TODO: Create/Get Content -->
-        <p></p>
+        <div class="sectionHeader">
+            <button id="sectionShowResume" class="sButton" onclick="ResumeShow()">+</button>
+            <button id="sectionHideResume" class="hide sButton" onclick="ResumeHide()">-</button>
+            <h1>Resume</h1>
+        </div>
+        <div id="contResume" class="row hide">
+            <!-- TODO: Create/Get Content -->
+            <p></p>
+        </div>
     </section>
     <!-- Contact -->
     <section id="contact" class="flexBoxColumn">
-        <h1 class="flexItem11A">Contact</h1>
-        <div id="contactCon" class="flexBoxRow">
-            <div class="flexBoxColumn contactCon">
-                <h2 class="flexItem11A">Email</h2>
-                <a href="mailto:mrdiegosandoval@gmail.com" class="lookLikeLink flexItem11A contactCont">mrdiegosandoval@gmail.com</a>
-            </div>
-            <div class="flexBoxColumn contactCon">
-                <h2 class="flexItem11A">Call/Text</h2>
-                <a href="tel:+16237456504" class="lookLikeLink contactCont flexItem11A">(623) 745-6504</a>
-            </div>
-            <div class="flexBoxColumn contactCon">
-                <h2 class="flexItem11A">Social</h2>
-                <!-- TODO: Put link to social media with little images and tag. -->
-                <div class="flexBoxRow  contactCont">
-                    <a href="#"><img src="Images/FaceBook.png" alt="Facebook Icon" class="icons"></a>
-                    <a href="#"><img src="Images/Twitter.png" alt="Twitter Icon" class="icons"></a>
-                    <a href="#"><img src="Images/Instagram.png" alt="Instagram Icon" class="icons"></a>
+        <div class="sectionHeader">
+            <button id="sectionShowContact" class="sButton" onclick="ContactShow()">+</button>
+            <button id="sectionHideContact" class="hide sButton" onclick="ContactHide()">-</button>
+            <h1>Contact</h1>
+        </div>
+        <div id="contContact" class="row hide">
+            <div id="contactCon" class="flexBoxRow">
+                <div class="flexBoxColumn contactCon">
+                    <h2 class="flexItem11A">Email</h2>
+                    <a href="mailto:mrdiegosandoval@gmail.com" class="lookLikeLink flexItem11A contactCont">mrdiegosandoval@gmail.com</a>
+                </div>
+                <div class="flexBoxColumn contactCon">
+                    <h2 class="flexItem11A">Call/Text</h2>
+                    <a href="tel:+16237456504" class="lookLikeLink contactCont flexItem11A">(623) 745-6504</a>
+                </div>
+                <div class="flexBoxColumn contactCon">
+                    <h2 class="flexItem11A">Social</h2>
+                    <!-- TODO: Put link to social media with little images and tag. -->
+                    <div class="flexBoxRow  contactCont">
+                        <a href="#"><img src="Images/FaceBook.png" alt="Facebook Icon" class="icons"></a>
+                        <a href="#"><img src="Images/Twitter.png" alt="Twitter Icon" class="icons"></a>
+                        <a href="#"><img src="Images/Instagram.png" alt="Instagram Icon" class="icons"></a>
+                    </div>
                 </div>
             </div>
         </div>
