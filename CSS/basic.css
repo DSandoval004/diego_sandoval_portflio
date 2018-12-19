@@ -1,9 +1,10 @@
 @charset "utf-8";
+/* Imports the reset and grid styles sheet. */
 @import "reset.css";
 @import "grids.css";
+/* A basic CSS sheets, that applie certian styles that I want, this is so I don,t have to retype everything, everytime. Their are parts in here that are meant to be changed if need be. Their are the HTML and body styles, Link styles, Hide display a top styles, the styles for the different heading elements, flex styles, header styles and Top Nav Bar Styles. */
 
 /* HTML and Body */
-/* A basic CSS sheets, that applie certian styles that I want, this is so I don,t have to retype everything. */
 html {
     width: 100%;
 

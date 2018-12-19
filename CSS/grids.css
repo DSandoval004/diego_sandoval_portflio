@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* A grid sheet that I created to have the styles that go with grids. Ther is a class of row which clears both side of the element it is placed on. Then all the column element going up to a denominator of 10. */
 /* Rows */
 .row {
     clear: both;

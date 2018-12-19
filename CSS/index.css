@@ -7,11 +7,17 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Added a text indent to the paragraph elements. */
+p {
+    text-indent: 1em;
+}
+
 nav#topNavBar a button,
 div.skills {
     font-family: 'Audiowide', cursive;
 }
 
+/* Align the text center, then gives it letter spacing, and changes the fot size, gives margin and padding and makes it float left. */
 h1 {
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -34,6 +40,7 @@ h3 {
 
 
 /* Header and Top Nav Bar */
+/* Makethe header have a max height, gave it a black border and a yellow box-shadow,and position of sticky and it is 5px from the top. Made the image in the header have a set height, smae with the top nav bar. */
 header {
     max-height: 100px;
     border: 1px solid black;
@@ -58,6 +65,7 @@ nav#topNavBar {
 }
 
 /* Section */
+/* Stylized each of the sections, so that they have a background color, a box shadow, a border, and set the size of the box. The gave the section headers a different background. */
 section {
     background-color: aliceblue;
     box-shadow: 1px 5px 5px;
@@ -74,6 +82,7 @@ section div.sectionHeader {
 }
 
 /* Section Buttons */
+/* Stylizes the + and - buttons, give them a set size, made the float left, gave them a custom font, made the background transparent, got ride of the border, and changed the font size. */
 section button.sButton {
     float: left;
     font-family: 'Audiowide', cursive;
@@ -86,23 +95,23 @@ section button.sButton {
 }
 
 /* About Me */
+/* Gave the text in the about me a different font size, line height, padding and margin. */
 section#about div p {
-
-    text-indent: 1em;
     font-size: 1.2em;
     padding: 2.5px;
     margin: 2.5px;
     line-height: 1.2em;
 }
 
-/* Bio */
 /* Education */
+/* Gave the heading 2 elements in the education section a border top and padding. */
 section#Ed h2 {
     border-top: 2px solid black;
     padding: 5px;
 }
 
-/* Skillz */
+/* Skills */
+/* Set the width and background of the containers theat contain the skill bar. Then made the text align right, have a padding and have a font color of white. Then put different id's for each of the bars, so that they have a different color and match the percentage. */
 .skillcon {
     width: 100%;
     background-color: #ddd;
@@ -145,6 +154,7 @@ section#Ed h2 {
 }
 
 /* Contact */
+/* Set the size of the icons and spaced them out. */
 .icons {
     width: 25px;
     height: 25px;
@@ -152,6 +162,7 @@ section#Ed h2 {
 }
 
 /* Footer */
+/* Set the size of the footer, gave it a different background, and gave it a border and a box shadow. Then aligned the text of the link to center, changed the font size using pixels so it would fill the footer, made it have a width and height of 100% so it would cover the entire footer, spaced out the letters and changed the font family. */
 footer {
     height: 60px;
     width: 96%;

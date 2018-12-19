@@ -1,11 +1,14 @@
 @charset "utf-8";
 
+/* responsive design, makes it so when the screen reaches a certan width the styles change. */
 /*  
     =============================== 
     Tablet and Mobile Styles: 768px 
     ===============================
 */
 @media (max-width: 768px) {
+
+    /* Changes the width of the body and the sections. */
     body {
         width: 100%;
     }
@@ -14,6 +17,7 @@
         width: 90%;
     }
 
+    /* Change the width of the image if my face. Clear both sides of the image and the content. */
     img#imgMyFace {
         width: 99%;
         clear: both;
@@ -23,17 +27,10 @@
         clear: both;
     }
 
+    /* Change the flex flow of the contact to have a column flow instead of a row flow. */
     div#contactCon {
         flex-flow: column;
         -webkit-flex-flow: column wrap;
-    }
-
-    div.contactCon {
-        margin-left: 1em;
-    }
-
-    .contactCont {
-        margin-left: 5px;
     }
 }
 
@@ -43,6 +40,8 @@
     ===================================
 */
 @media (max-width: 1174px) {
+
+    /* Changes the flex flow of the header to row, and changes the max height to fit content. The changed the width of the header image. Also made the nav bar have a flex flow of column, changed its width and height. */
     header {
         -webkit-flex-flow: row wrap;
         flex-flow: row;
@@ -61,10 +60,3 @@
         width: 99%
     }
 }
-
-/*  
-    ================================== 
-    Desktop Styles: 1175px and greater 
-    ==================================
-*/
-@media (min-width: 1175px) {}

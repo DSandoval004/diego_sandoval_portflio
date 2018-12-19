@@ -1,5 +1,5 @@
-// Nav Icon
-// About
+// This is the JavaScript for the + and - button that expands and de-expand the content.
+// * About
 function AboutShow() {
     document.getElementById('contAbout').style.display = 'block'
     document.getElementById('sectionHideAbout').style.display = 'block'
@@ -11,7 +11,7 @@ function AboutHide() {
     document.getElementById('sectionHideAbout').style.display = 'none'
     document.getElementById('sectionShowAbout').style.display = 'block'
 }
-// Education
+// * Education
 function EDShow() {
     document.getElementById('contED').style.display = 'block'
     document.getElementById('sectionHideED').style.display = 'block'
@@ -23,7 +23,7 @@ function EDHide() {
     document.getElementById('sectionHideED').style.display = 'none'
     document.getElementById('sectionShowED').style.display = 'block'
 }
-// Skills
+// * Skills
 function SkillsShow() {
     document.getElementById('contSkills').style.display = 'block'
     document.getElementById('sectionHideSkills').style.display = 'block'
@@ -35,7 +35,7 @@ function SkillsHide() {
     document.getElementById('sectionHideSkills').style.display = 'none'
     document.getElementById('sectionShowSkills').style.display = 'block'
 }
-// Resume
+// * Resume
 function ResumeShow() {
     document.getElementById('contResume').style.display = 'block'
     document.getElementById('sectionHideResume').style.display = 'block'
@@ -47,7 +47,7 @@ function ResumeHide() {
     document.getElementById('sectionHideResume').style.display = 'none'
     document.getElementById('sectionShowResume').style.display = 'block'
 }
-// Contact
+// * Contact
 function ContactShow() {
     document.getElementById('contContact').style.display = 'block'
     document.getElementById('sectionHideContact').style.display = 'block'
