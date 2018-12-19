@@ -59,3 +59,12 @@ function ContactHide() {
     document.getElementById('sectionHideContact').style.display = 'none'
     document.getElementById('sectionShowContact').style.display = 'block'
 }
+// Prevent the nav bar doesnt cover the content
+var shiftWindow = function () {
+    scrollBy(0, -75)
+};
+window.addEventListener("hashchange", shiftWindow);
+
+function load() {
+    if (window.location.hash) shiftWindow();
+}

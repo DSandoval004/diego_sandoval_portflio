@@ -81,9 +81,10 @@ section div.sectionHeader {
     background-color: lightslategray;
 }
 
+
 /* Section Buttons */
 /* Stylizes the + and - buttons, give them a set size, made the float left, gave them a custom font, made the background transparent, got ride of the border, and changed the font size. */
-section button.sButton {
+button.sButton {
     float: left;
     font-family: 'Audiowide', cursive;
     background: transparent;
@@ -151,6 +152,12 @@ section#Ed h2 {
 #pp {
     width: 10%;
     background-color: rgb(167, 119, 178);
+}
+
+/* Resume */
+section#resume a {
+    margin: 5px;
+    padding: 5px;
 }
 
 /* Contact */
